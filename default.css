@@ -18,6 +18,10 @@ html, body {
   margin: 0;
 }
 
+body *{
+  transition: 0.3s;
+}
+
 h1,h2,h3,h4,h5,h6 strong{
   color: var(--mainText);
   font-family: 'Russo One', sans-serif;
@@ -210,14 +214,14 @@ h6 { font-size: 16px; }
   padding-bottom: 50px;
 
 }
-
+/* 
 #preview-shadow{
   background-color: var(--previewShadow);
   width: 300px;
   height: 180px;
-  /* padding-left: 30px;
-  padding-top: 30px; */
-}
+  padding-left: 30px;
+  padding-top: 30px;
+} */
 
 #preview{
   width: 300px;
