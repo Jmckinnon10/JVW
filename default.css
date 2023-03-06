@@ -191,14 +191,6 @@ h6 { font-size: 16px; }
   background-color: #192734
 }
 
-#green-mode{
-  background-color: #78866b
-}
-
-#pruple-mode{
-  background-color: #7E4C74
-}
-
 #settings-note{
   font-size: 12px;
   font-style: italic;
@@ -303,6 +295,7 @@ h6 { font-size: 16px; }
   display: grid;
   align-content:center;
   text-align:center;
+  
 
 }
 
