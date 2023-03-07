@@ -289,6 +289,38 @@ h6 { font-size: 16px; }
   height: auto;
 }
 
+.ruby-on-rails-image {
+  width: 30%;
+  height: auto;
+}
+
+.postgresql-image {
+  width: 30%;
+  height: auto;
+}
+
+.git-image {
+  width: 30%;
+  height: auto;
+}
+
+.restfulapis-image {
+  width: 30%;
+  height: auto;
+}
+
+.html-image {
+  width: 30%;
+  height: auto;
+}
+
+.css-image {
+  width: 30%;
+  height: auto;
+}
+
+
+
 
 
 .social-links{
