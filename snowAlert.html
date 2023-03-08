@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snow Alert</title>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="default.css">
+
+
+	<style type="text/css">
+		.img-container{
+			max-width: 600px;
+		}
+
+		img{
+			width: 100%
+		}
+
+	</style>
+
+</head>
+<body>
+	<div class="nav-wrapper">
+
+		<a href="index.html">
+			<div class="dots-wrapper">
+				<div id="dot-1" class="browser-dot"></div>
+				<div id="dot-2" class="browser-dot"></div>
+				<div id="dot-3" class="browser-dot"></div>
+			</div>
+		</a>
+
+
+	</div>
+
+	<div class="main-container">
+		<br>
+
+		
+		<h3>Snow Alert</h3>
+
+		<p>Serverless snow alert system using Node.js, AWS Lambda, Google Sheets API, Weather API, and Twilio
+System. Retrieves phone numbers and zip codes from Google Sheets and sends SMS alerts using Twilio if snow is forecasted.
+Includes a Lambda function using a cron job that wakes up every hour and checks the Weather API for snow.
+Users can submit their information through an HTTP endpoint in order to subscribe.
+</p>
+
+		<h5>Technologies:</h5>
+		<ul>
+			<li>- Node.js</li>
+			<li>- AWS Lambda</li>
+			<li>- Google Sheets API</li>
+			<li>- Weather API</li>
+			<li>- Twilio</li>
+		</ul>
+
+	</div>
+
+</body>
+</html>
+
+
