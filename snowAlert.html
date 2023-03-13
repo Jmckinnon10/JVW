@@ -45,8 +45,8 @@
 		
 		<h3>Snow Alert</h3>
 
-		<p>Serverless snow alert system using Node.js, AWS Lambda, Google Sheets API, Weather API, and Twilio
-System. Retrieves phone numbers and zip codes from Google Sheets and sends SMS alerts using Twilio if snow is forecasted.
+		<p>Serverless snow alert system using Node.js, AWS Lambda, DynamoDB, Weather API, and Twilio
+System. Retrieves phone numbers and zip codes from DynamoDB and sends SMS alerts using Twilio if snow is forecasted.
 Includes a Lambda function using a cron job that wakes up every hour and checks the Weather API for snow.
 Users can submit their information through an HTTP endpoint in order to subscribe.
 </p>
@@ -55,7 +55,7 @@ Users can submit their information through an HTTP endpoint in order to subscrib
 		<ul>
 			<li>- Node.js</li>
 			<li>- AWS Lambda</li>
-			<li>- Google Sheets API</li>
+			<li>- DynamoDB</li>
 			<li>- Weather API</li>
 			<li>- Twilio</li>
 		</ul>
